@@ -1,12 +1,75 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github</title>
+    <title>CS:GO Showcase</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Lázár Tomi HTML oldala</h1>
-    
+    <div class="video-bg">
+        <video autoplay muted loop>
+            <source src="https://cdn.cloudflare.steamstatic.com/apps/csgo/videos/csgo_react/csgo_header.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header>
+        <h1>CS:GO</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#maps">Maps</a>
+            <a href="#weapons">Weapons</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Global Offensive</h2>
+        <p>Experience tactical mastery and iconic competitive gameplay.</p>
+        <a href="#about" class="btn">Explore</a>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About CS:GO</h2>
+        <p>Counter-Strike: Global Offensive delivers intense FPS gameplay built on strategy, precision, and teamwork. Featuring competitive matchmaking, iconic maps, and a massive global esports scene, CS:GO remains one of the most influential shooters ever created.</p>
+    </section>
+
+    <section id="maps" class="section dark">
+        <h2>Popular Maps</h2>
+        <div class="grid">
+            <div class="card">Dust II</div>
+            <div class="card">Mirage</div>
+            <div class="card">Inferno</div>
+            <div class="card">Nuke</div>
+            <div class="card">Overpass</div>
+            <div class="card">Vertigo</div>
+        </div>
+    </section>
+
+    <section id="weapons" class="section">
+        <h2>Weapons</h2>
+        <div class="grid">
+            <div class="card">AK-47</div>
+            <div class="card">M4A1-S</div>
+            <div class="card">AWP</div>
+            <div class="card">Glock-18</div>
+            <div class="card">USP-S</div>
+            <div class="card">Desert Eagle</div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section dark">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="imgs/csgo.jpg" alt="">
+            <img src="imgs/CSGO_after_CS2.jpg" alt="">
+            <img src="imgs/download (1).jpg" alt="">
+            <img src="imgs/download.jpg" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <p>CS:GO</p>
+    </footer>
 </body>
 </html>
